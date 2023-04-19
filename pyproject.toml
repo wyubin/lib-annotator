@@ -1,0 +1,10 @@
+[project]
+name = "annotator"
+description = "python library for annotation by resources"
+version = "0.1.0"
+authors = [
+    { name = "Yu-Bin Wang", email = "yubin0611@gmail.com" }
+]
+
+[build-system]
+requires = ["PyYAML>=6.0"]

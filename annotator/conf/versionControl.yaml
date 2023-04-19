@@ -1,0 +1,294 @@
+info:
+  version: 2.1.0
+CGD:
+  annotatorInfo:
+    dataFileName:
+      hg19: annotator_utils/CGD-20201218.json
+      hg38: annotator_utils/CGD-20201218.json
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: 20201218
+    hg38: 20201218
+    name: CGD
+    type: gene
+HGMD-tx:
+  annotatorInfo:
+    dataFileName:
+      hg19: annotator_utils/hgmd_gene_dna_prot.json
+      hg38: annotator_utils/hgmd_gene_dna_prot.json
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: 20200826
+    hg38: 20200826
+    name: HGMD transcript
+    type: gene
+LOVD:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_LOVD-20230213.tsv.gz
+      hg38: hg38_LOVD-20230213.tsv.gz
+  webInfo:
+    hg19: 'v3.0_28d'
+    hg38: 'v3.0_28d'
+    name: LOVD
+    type: somatic
+MANE:
+  annotatorInfo:
+    dataFileName:
+      hg19: annotator_utils/MANE.GRCh38.v0.91.summary.json
+      hg38: annotator_utils/MANE.GRCh38.v0.91.summary.json
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: v0.91
+    hg38: v0.91
+    name: MANE Select transcript
+    type: gene
+RepeatMasker:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_RepeatMasker.bed.gz
+      hg38: hg38_RepeatMasker.bed.gz
+  webInfo:
+    hg19: 20201015
+    hg38: 20201015ls
+    name: RepeatMasker
+    type: germline
+TaiwanBiobank-official:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_TaiwanBiobank-official.tsv.gz
+      hg38: hg38_TaiwanBiobank-official.tsv.gz
+  webInfo:
+    hg19: illumina 1000 samples
+    hg38: illumina 1000 samples
+    name: TaiwanBiobank-official
+    type: germline
+ensGene:
+  annotatorInfo:
+    dataFileName:
+      hg19: null
+      hg38: null
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: 20220503
+    hg38: 20220503
+    name: ensGene
+    type: gene
+knownGene:
+  annotatorInfo:
+    dataFileName:
+      hg19: null
+      hg38: null
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: 20220503
+    hg38: 20220503
+    name: knownGene
+    type: gene
+refGene:
+  annotatorInfo:
+    dataFileName:
+      hg19: null
+      hg38: null
+    sqlTableNamePrefix:
+      hg19: null
+      hg38: null
+  webInfo:
+    hg19: 20220503
+    hg38: 20220503
+    name: refGene
+    type: gene
+MitoMap:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_MitoMap20220721.tsv.gz
+      hg38: hg38_MitoMap20220721.tsv.gz
+  webInfo:
+    hg19: 20220721
+    hg38: 20220721
+    name: MitoMap
+    type: germline
+SpliceAI-SNV:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_SpliceAI-SNV-20191012.tsv.gz
+      hg38: hg38_SpliceAI-SNV-20191012.tsv.gz
+  webInfo:
+    hg19: 20191012
+    hg38: 20191012
+    name: SpliceAI-SNV
+    type: germline
+    dependencies:
+      SpliceAI: v1.3
+SpliceAI-INDEL:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_SpliceAI-INDEL-20191012.tsv.gz
+      hg38: hg38_SpliceAI-INDEL-20191012.tsv.gz
+  webInfo:
+    hg19: 20191012
+    hg38: 20191012
+    name: SpliceAI-INDEL
+    type: germline
+    dependencies:
+      SpliceAI: v1.3
+dbNSFP:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_dbNSFP43.tsv.gz
+      hg38: hg38_dbNSFP43.tsv.gz
+  webInfo:
+    hg19: 4.3
+    hg38: 4.3
+    name: dbNSFP
+    type: germline
+ClinVar:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_ClinVar20220924.tsv.gz
+      hg38: hg38_ClinVar20220924.tsv.gz
+  webInfo:
+    hg19: 20220924
+    hg38: 20220924
+    name: ClinVar
+    type: germline
+Pathogenic-AAchange:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_Pathogenic-AAchange20230301.tsv.gz
+      hg38: hg38_Pathogenic-AAchange20230301.tsv.gz
+  webInfo:
+    hg19: 20230301
+    hg38: 20230301
+    name: Pathogenic-AAchange
+    type: germline
+BRCAexchange:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_BRCAexchange20220901.tsv.gz
+      hg38: hg38_BRCAexchange20220901.tsv.gz
+  webInfo:
+    hg19: 20220901
+    hg38: 20220901
+    name: BRCAexchange
+    type: germline
+DeafnessVD:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_DeafnessVD20201228r10.tsv.gz
+      hg38: hg38_DeafnessVD20201228r10.tsv.gz
+  webInfo:
+    hg19: 20201228r10
+    hg38: 20201228r10
+    name: DeafnessVD
+    type: germline
+gnomAD-Genomes:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_gnomAD-Genomes21102.tsv.gz
+      hg38: hg38_gnomAD-Genomes31202.tsv.gz
+  webInfo:
+    hg19: v2.1.1
+    hg38: v3.1.2
+    name: gnomAD-Genomes
+    type: germline
+CADD:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_CADD-SNV-16.tsv.gz
+      hg38: hg38_CADD-SNV-16.tsv.gz
+  webInfo:
+    hg19: 1.6
+    hg38: 1.6
+    name: CADD
+    type: germline
+CADD-INDEL:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_CADD-INDEL-16.tsv.gz
+      hg38: hg38_CADD-INDEL-16.tsv.gz
+  webInfo:
+    hg19: 1.6
+    hg38: 1.6
+    name: CADD-INDEL
+    type: germline
+UniProt:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_UniProt-20230323.tsv.gz
+      hg38: hg38_UniProt-20230323.tsv.gz
+  webInfo:
+    hg19: 2022_05
+    hg38: 2022_05
+    name: UniProt
+    type: germline
+avsnp150:
+  annotatorInfo:
+    dataFileName:
+      hg19: data_hg19_avsnp150.txt
+      hg38: data_hg38_avsnp150.txt
+    sqlTableNamePrefix:
+      hg19: cursor_hg19_avsnp150
+      hg38: cursor_hg38_avsnp150
+  webInfo:
+    hg19: dbSNP150
+    hg38: dbSNP150
+    name: RefSNP ID
+    type: gene
+WGSA:
+  webInfo:
+    hg19: WGSA09
+    hg38: WGSA09
+    name: WGSA annotation tool
+    type: germline
+gnomAD-Exome-MNV:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_gnomAD-Exome-MNV.tsv.gz
+      hg38: null
+  webInfo:
+    hg19: v2.1
+    hg38: null
+    name: gnomAD-Exome-MNV
+    type: germline
+gnomAD-coverage:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_gnomAD-genome-coverage.tsv.gz
+      hg38: hg38_gnomAD-genome-coverage.tsv.gz
+  webInfo:
+    hg19: v2.1
+    hg38: v3.1
+    name: gnomAD-coverage
+dbSNP:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_dbSNP-20230315.tsv.gz
+      hg38: hg38_dbSNP-20230315.tsv.gz
+  webInfo:
+    hg19: b151
+    hg38: b151
+    name: dbSNP
+pathogenicHotspot-ailabs:
+  annotatorInfo:
+    dataFileName:
+      hg19: hg19_pathogenicHotspot-ailabs-20221228.bed.gz
+      hg38: hg38_pathogenicHotspot-ailabs-20221228.bed.gz
+  webInfo:
+    hg19: 20221228
+    hg38: 20221228
+    name: pathogenicHotspot
+    dependencies:
+      ClinVar: 20220611
+      BRCA: 20220901
+      DVD: 20201228r10
