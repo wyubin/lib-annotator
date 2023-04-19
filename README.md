@@ -5,10 +5,15 @@
 - Python >= 3.7
 - JRE >= 8.0
 
+# install
+```shell
+python3 -m pip install git+https://github.com/wyubin/lib-annotator.git#egg=annotator
+```
+
 # usage
 - 安裝好 `annotator` 後，可在 python 環境中使用，如下
 ```python
-from annotator.annotator import Annotator
+from annotator import Annotator
 
 conf = {
     'hg19': '/root/taigenomics-staging/volume/pub/hg19.resource/1/Annotator',

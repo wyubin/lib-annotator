@@ -5,6 +5,11 @@ version = "0.1.0"
 authors = [
     { name = "Yu-Bin Wang", email = "yubin0611@gmail.com" }
 ]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "PyYAML>=6.0",
+]
 
 [build-system]
-requires = ["PyYAML>=6.0"]
+requires = []
