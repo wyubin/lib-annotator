@@ -11,5 +11,8 @@ dependencies = [
     "PyYAML>=6.0",
 ]
 
+[options]
+include_package_data = True
+
 [build-system]
 requires = []

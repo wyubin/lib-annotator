@@ -1,0 +1,2 @@
+recursive-include src/annotator/bin *
+recursive-include src/annotator/conf *
